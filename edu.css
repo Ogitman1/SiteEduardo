@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+ul li{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 823px) {
+    div#main{
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 10px 15px;
+        height: auto;
+        width: auto;
+    }
+    #line{
+        display: none;
+    }
+    #first{
+        display: inline-flex; 
+        width: auto; height: auto; 
+        justify-content: center;
+        flex: 0 0 100% ;
+        flex-direction: column;
+        margin-left: 15px; 
+        padding: 20px calc(40% + 20px); 
+        flex-direction: column; 
+        flex-wrap:nowrap;
+    }
+    #ling{
+    display: flex;
+    justify-content: 
+    flex-start ;flex: 0 0 48%; 
+    padding: 20px 180px; 
+    flex-direction: column;
+
+    }
+}
+
+button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
